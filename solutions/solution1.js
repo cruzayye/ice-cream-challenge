@@ -1,5 +1,5 @@
 const solution1 = () => {
-  let ul = document.querySelector('.ice-cream-list');
+  const ul = document.querySelector('.ice-cream-list');
   return window.iceCreamFlavors.forEach(flavor => {
     let li = document.createElement('li');
     li.setAttribute('class', 'ice-cream-flavor');
